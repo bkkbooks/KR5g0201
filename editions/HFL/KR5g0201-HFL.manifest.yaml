@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0201/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0201/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清曲素訣辭籙
+  date: '2015-08-29 02:59:53.777707'
+  source:
+    repository: kanripo
+    path: KR5g0201
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0201_000-HFL.yaml, hash: 'sha256:61713996a981fc915ececefe5dce2701b69502fa8333a672588641a6018ce68c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0201_000-HFL.markers.yaml, hash: 'sha256:0de32ec816b52ca76bb3c3e1036821c655f281950d880ec50e68b088d8855159'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0201_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1698
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b7aa444c3bb92be208c30de2ff7d1b69792ff42e3a8587f08a35684bc858a78c
